@@ -1,0 +1,34 @@
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# PowerShell
+*.psd1.bak
+*.psm1.bak
+
+# Temporary files
+*.tmp
+*.temp
+
+# Archives
+*.zip
+*.7z
+
+# Environment variables
+.env
+.env.*
+
+# Test results
+TestResults/
+
+# PowerShell Editor Services
+.history/
