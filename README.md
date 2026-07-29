@@ -4,13 +4,28 @@
 
 ---
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Who Is This Repository For?](#who-is-this-repository-for)
+- [Documentation](#documentation)
+- [Repository Structure](#repository-structure)
+- [Scripts](#scripts)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [Author](#author)
+- [License](#license)
+
+---
+
 ## Overview
 
-This repository is a practical reference for learning and using PowerShell in real-world environments.
+This repository provides a practical and organized reference for learning and using PowerShell in real-world environments.
 
-Instead of focusing only on syntax, it provides practical examples, explanations, and cybersecurity-oriented use cases that can help system administrators, IT professionals, DevOps engineers, and security practitioners automate daily tasks and better understand the Windows ecosystem.
+Rather than focusing only on cmdlet syntax, it emphasizes practical examples, administration tasks, and cybersecurity-oriented use cases that help automate repetitive tasks and improve day-to-day operations.
 
-Whether you are just getting started with PowerShell or looking for a quick reference, this repository is designed to be easy to navigate and continuously expanded.
+Whether you are just getting started with PowerShell or looking for a quick reference, this repository is designed to be easy to navigate, continuously expanded, and useful in professional environments.
 
 ---
 
@@ -19,11 +34,11 @@ Whether you are just getting started with PowerShell or looking for a quick refe
 - Practical PowerShell examples
 - Real-world administration tasks
 - Cybersecurity-focused use cases
-- Windows PowerShell 5.1 and PowerShell 7 notes
-- Reusable script snippets
+- Windows PowerShell 5.1 and PowerShell 7 compatibility notes
+- Reusable PowerShell snippets
 - Production-inspired examples
 - Beginner-friendly explanations
-- Links to official Microsoft documentation
+- References to official Microsoft documentation
 
 ---
 
@@ -41,26 +56,26 @@ This repository is intended for:
 
 ---
 
-## Topics Covered
+## Documentation
 
-| Topic | Status |
-|--------|:------:|
-| Getting Started | 🚧 |
-| Files and Folders | 🚧 |
-| Processes | 🚧 |
-| Services | 🚧 |
-| Users and Groups | 🚧 |
-| Networking | 🚧 |
-| Event Logs | 🚧 |
-| Registry | 🚧 |
-| Active Directory | 🚧 |
-| Windows Security | 🚧 |
-| System Information | 🚧 |
-| Remoting | 🚧 |
-| Azure | 🚧 |
-| Microsoft 365 | 🚧 |
-| Useful One-Liners | 🚧 |
-| Troubleshooting | 🚧 |
+| Topic | Description | Status |
+|------|-------------|:------:|
+| Getting Started | Introduction to PowerShell fundamentals | 🚧 |
+| Files and Folders | File system navigation and management | 🚧 |
+| Processes | Working with running processes | 🚧 |
+| Services | Managing Windows services | 🚧 |
+| Users and Groups | Local user and group administration | 🚧 |
+| Networking | Network configuration and troubleshooting | 🚧 |
+| Event Logs | Reading and filtering Windows Event Logs | 🚧 |
+| Registry | Managing the Windows Registry | 🚧 |
+| Active Directory | Active Directory administration | 🚧 |
+| Windows Security | Security and hardening commands | 🚧 |
+| System Information | Collecting system information | 🚧 |
+| Remoting | PowerShell Remoting fundamentals | 🚧 |
+| Azure | Azure PowerShell basics | 🚧 |
+| Microsoft 365 | Microsoft 365 administration | 🚧 |
+| Useful One-Liners | Frequently used commands | 🚧 |
+| Troubleshooting | Common issues and solutions | 🚧 |
 
 ---
 
@@ -68,49 +83,52 @@ This repository is intended for:
 
 ```text
 .
+├── .github/
+│   ├── workflows/
+│   └── ISSUE_TEMPLATE/
+│
 ├── docs/
+│
 ├── images/
+│
 ├── scripts/
 │   ├── examples/
 │   └── snippets/
-└── README.md
+│
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+└── SECURITY.md
 ```
-
----
-
-## Documentation
-
-The documentation is organized into independent chapters, allowing readers to quickly find a specific topic without reading the repository from beginning to end.
-
-Each chapter includes:
-
-- Overview
-- Common cmdlets
-- Syntax
-- Parameters
-- Examples
-- Expected output
-- Cybersecurity use cases
-- Common mistakes
-- Performance tips
-- Version compatibility
-- Related commands
-- Microsoft Learn references
-- Summary
 
 ---
 
 ## Scripts
 
-The repository also contains practical PowerShell scripts.
+The repository includes two categories of PowerShell scripts.
 
 ### Examples
 
-Complete scripts that can be adapted to real environments.
+Complete scripts demonstrating practical administrative and security tasks.
+
+Examples include:
+
+- Export Windows services
+- Audit local users
+- Find large files
+- List installed software
 
 ### Snippets
 
-Small reusable pieces of PowerShell code that can be copied into your own scripts.
+Small reusable PowerShell code blocks that can easily be copied into larger scripts.
+
+Examples include:
+
+- Check administrator privileges
+- Test TCP ports
+- Write log entries
+- Retrieve operating system information
 
 ---
 
@@ -120,27 +138,25 @@ Planned improvements include:
 
 - Complete all documentation chapters
 - Add screenshots
-- Add PowerShell execution examples
+- Add execution examples
 - Expand cybersecurity scenarios
-- Add more automation examples
 - Add PowerShell best practices
-- Add additional reusable scripts
+- Add reusable automation scripts
+- Improve cross-references between topics
 
 ---
 
 ## Contributing
 
-Contributions are welcome.
+Contributions, corrections, and suggestions are welcome.
 
-If you find an error, have a suggestion, or would like to improve the documentation, feel free to open an Issue or submit a Pull Request.
-
-Please read the `CONTRIBUTING.md` guide before contributing.
+Please read the `CONTRIBUTING.md` guide before opening an Issue or submitting a Pull Request.
 
 ---
 
 ## Author
 
-**Roberto Delgado**
+### Roberto Delgado
 
 *Cybersecurity Engineer*
 
@@ -154,4 +170,4 @@ This repository is part of my technical portfolio, featuring hands-on projects t
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
