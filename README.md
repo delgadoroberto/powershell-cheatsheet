@@ -23,22 +23,26 @@
 
 This repository provides a practical and organized reference for learning and using PowerShell in real-world environments.
 
-Rather than focusing only on cmdlet syntax, it emphasizes practical examples, administration tasks, and cybersecurity-oriented use cases that help automate repetitive tasks and improve day-to-day operations.
+Rather than focusing only on cmdlet syntax, it emphasizes practical examples, administration tasks, troubleshooting techniques, and cybersecurity-oriented use cases.
 
-Whether you are just getting started with PowerShell or looking for a quick reference, this repository is designed to be easy to navigate, continuously expanded, and useful in professional environments.
+The documentation covers Windows administration, networking, event logs, Active Directory, Windows security, PowerShell Remoting, Azure, Microsoft 365, useful one-liners, and troubleshooting.
+
+Whether you are learning PowerShell or looking for a quick reference, this repository is designed to be easy to navigate and useful in professional environments.
 
 ---
 
 ## Features
 
-- Practical PowerShell examples
+- Practical PowerShell commands and examples
 - Real-world administration tasks
 - Cybersecurity-focused use cases
 - Windows PowerShell 5.1 and PowerShell 7 compatibility notes
 - Reusable PowerShell snippets
-- Production-inspired examples
+- Troubleshooting workflows
+- Cloud and Microsoft 365 administration examples
 - Beginner-friendly explanations
 - References to official Microsoft documentation
+- GitHub Actions for repository quality and maintenance
 
 ---
 
@@ -58,24 +62,24 @@ This repository is intended for:
 
 ## Documentation
 
-| Topic | Description | Status |
-|------|-------------|:------:|
-| Getting Started | Introduction to PowerShell fundamentals | 🚧 |
-| Files and Folders | File system navigation and management | 🚧 |
-| Processes | Working with running processes | 🚧 |
-| Services | Managing Windows services | 🚧 |
-| Users and Groups | Local user and group administration | 🚧 |
-| Networking | Network configuration and troubleshooting | 🚧 |
-| Event Logs | Reading and filtering Windows Event Logs | 🚧 |
-| Registry | Managing the Windows Registry | 🚧 |
-| Active Directory | Active Directory administration | 🚧 |
-| Windows Security | Security and hardening commands | 🚧 |
-| System Information | Collecting system information | 🚧 |
-| Remoting | PowerShell Remoting fundamentals | 🚧 |
-| Azure | Azure PowerShell basics | 🚧 |
-| Microsoft 365 | Microsoft 365 administration | 🚧 |
-| Useful One-Liners | Frequently used commands | 🚧 |
-| Troubleshooting | Common issues and solutions | 🚧 |
+| Chapter | Topic | Description |
+|---------|-------|-------------|
+| 01 | [Getting Started](docs/01-getting-started.md) | PowerShell fundamentals and essential concepts |
+| 02 | [Files and Folders](docs/02-files-and-folders.md) | File system navigation and management |
+| 03 | [Processes](docs/03-processes.md) | Working with running processes |
+| 04 | [Services](docs/04-services.md) | Managing Windows services |
+| 05 | [Users and Groups](docs/05-users-and-groups.md) | Local user and group administration |
+| 06 | [Networking](docs/06-networking.md) | Network configuration and troubleshooting |
+| 07 | [Event Logs](docs/07-event-logs.md) | Reading and filtering Windows Event Logs |
+| 08 | [Registry](docs/08-registry.md) | Working with the Windows Registry |
+| 09 | [Active Directory](docs/09-active-directory.md) | Active Directory administration |
+| 10 | [Windows Security](docs/10-windows-security.md) | Security and hardening commands |
+| 11 | [System Information](docs/11-system-information.md) | Collecting system information |
+| 12 | [Remoting](docs/12-remoting.md) | PowerShell Remoting fundamentals |
+| 13 | [Azure](docs/13-azure.md) | Azure administration with PowerShell |
+| 14 | [Microsoft 365](docs/14-microsoft-365.md) | Microsoft 365 and Microsoft Graph administration |
+| 15 | [Useful One-Liners](docs/15-useful-one-liners.md) | Frequently used commands and practical one-liners |
+| 16 | [Troubleshooting](docs/16-troubleshooting.md) | System diagnostics and troubleshooting workflows |
 
 ---
 
@@ -88,6 +92,22 @@ This repository is intended for:
 │   └── ISSUE_TEMPLATE/
 │
 ├── docs/
+│   ├── 01-getting-started.md
+│   ├── 02-files-and-folders.md
+│   ├── 03-processes.md
+│   ├── 04-services.md
+│   ├── 05-users-and-groups.md
+│   ├── 06-networking.md
+│   ├── 07-event-logs.md
+│   ├── 08-registry.md
+│   ├── 09-active-directory.md
+│   ├── 10-windows-security.md
+│   ├── 11-system-information.md
+│   ├── 12-remoting.md
+│   ├── 13-azure.md
+│   ├── 14-microsoft-365.md
+│   ├── 15-useful-one-liners.md
+│   └── 16-troubleshooting.md
 │
 ├── images/
 │
@@ -110,7 +130,7 @@ The repository includes two categories of PowerShell scripts.
 
 ### Examples
 
-Complete scripts demonstrating practical administrative and security tasks.
+Complete scripts demonstrating practical administrative, automation, and security tasks.
 
 Examples include:
 
@@ -134,15 +154,18 @@ Examples include:
 
 ## Roadmap
 
-Planned improvements include:
+The core documentation is complete.
 
-- Complete all documentation chapters
-- Add screenshots
-- Add execution examples
-- Expand cybersecurity scenarios
+Future improvements may include:
+
+- Add screenshots and visual examples
+- Add real-world scenarios to selected chapters
+- Expand cybersecurity-focused examples
 - Add PowerShell best practices
-- Add reusable automation scripts
+- Expand the collection of reusable automation scripts
+- Add risk classifications to potentially destructive commands
 - Improve cross-references between topics
+- Review commands and modules periodically for compatibility with current PowerShell and Microsoft platforms
 
 ---
 
@@ -150,7 +173,7 @@ Planned improvements include:
 
 Contributions, corrections, and suggestions are welcome.
 
-Please read the `CONTRIBUTING.md` guide before opening an Issue or submitting a Pull Request.
+Please read the [`CONTRIBUTING.md`](CONTRIBUTING.md) guide before opening an Issue or submitting a Pull Request.
 
 ---
 
@@ -162,7 +185,7 @@ Please read the `CONTRIBUTING.md` guide before opening an Issue or submitting a 
 
 Cybersecurity professional focused on cloud and infrastructure security, DevSecOps, vulnerability management, and security automation.
 
-This repository is part of my technical portfolio, featuring hands-on projects that demonstrate secure engineering practices across cloud environments, Infrastructure as Code, container security, CI/CD, and security automation.
+This repository is part of my technical portfolio and demonstrates practical PowerShell knowledge applied to system administration, troubleshooting, cloud environments, and cybersecurity workflows.
 
 > **Practical cybersecurity. Secure automation. Continuous learning.**
 
@@ -170,4 +193,4 @@ This repository is part of my technical portfolio, featuring hands-on projects t
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
+This project is licensed under the MIT License. See the [`LICENSE`](LICENSE) file for more information.
