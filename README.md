@@ -177,20 +177,6 @@ Please read the [`CONTRIBUTING.md`](CONTRIBUTING.md) guide before opening an Iss
 
 ---
 
-## Author
-
-### Roberto Delgado
-
-*Cybersecurity Engineer*
-
-Cybersecurity professional focused on cloud and infrastructure security, DevSecOps, vulnerability management, and security automation.
-
-This repository is part of my technical portfolio and demonstrates practical PowerShell knowledge applied to system administration, troubleshooting, cloud environments, and cybersecurity workflows.
-
-> **Practical cybersecurity. Secure automation. Continuous learning.**
-
----
-
 ## License
 
 This project is licensed under the MIT License. See the [`LICENSE`](LICENSE) file for more information.
